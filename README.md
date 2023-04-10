@@ -32,6 +32,6 @@ They are used to train by MLP and CNN respectively.
 You can adjust the hyperparameters to train and store the model.  
 
 ### Pre-trained Model
-In ```evaluate.py```, you can produce the prediction through the pre-trained model ```best_model.pt``` or you can also train your    
-own model and replace it.
+In ```evaluate.py```, you can produce the prediction through the pre-trained model   
+```best_model.pt``` or you can also train your own model and replace it.
 
