@@ -1,4 +1,4 @@
-# Dcard-Article-Like-Prediction
+# Dcard Article Like Prediction
 
 ## Reproducing my submission
 
