@@ -13,16 +13,16 @@ Or you can build the virtual environment via
 ```$ pip install -r requirements.txt```
 
 ## Download the code and some files
-Download the file below:  
+Download the files below:  
 ```models.py```  
 ```evaluate.py```  
 ```MLP_train.ipynb```  
 ```CNN_train.ipynb```  
-```best_model.pt```
-```intern_homework_train_dataset.csv```
-```intern_homework_public_test_dataset.csv``` 
-```intern_homework_private_test_dataset.csv``` 
-```intern_homework_example_result.csv``` 
+```best_model.pt``` 
+```intern_homework_train_dataset.csv``` 
+```intern_homework_public_test_dataset.csv```  
+```intern_homework_private_test_dataset.csv```  
+```intern_homework_example_result.csv```  
 After downloading the files above, put them in the same folder.
 Or you can just download the whole folder in the repositories. 
 
