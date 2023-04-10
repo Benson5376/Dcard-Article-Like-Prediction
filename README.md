@@ -4,13 +4,13 @@
 
 ### Environment Setup & Installation
 
-Python version :```3.9.7```
+Python version :```3.10.8```
 
 All the packages that should be installed are in ```requirements.txt```
 
 First download ```requirements.txt```
 
-Build the virtual environment via   
+Or ypou can build the virtual environment via   
 ```$ virtualenv -p <path to python version> myenv```  
 ```$ pip install -r requirements.txt```
 ## Download the code and csv files
