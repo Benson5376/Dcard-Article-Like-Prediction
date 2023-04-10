@@ -1,6 +1,6 @@
 # Dcard Article Like Prediction
 
-## Reproducing my submission
+## Reproducing my Prediction
 
 ### Environment Setup & Installation
 
@@ -13,23 +13,27 @@ First download ```requirements.txt```
 Or ypou can build the virtual environment via   
 ```$ virtualenv -p <path to python version> myenv```  
 ```$ pip install -r requirements.txt```
-## Download the code and csv files
+
+## Download the code and some files
 Download the file below:  
-```109550159_Final_train.py```  
-```109550159_Final_inference.py```  
-```sample_submission.csv```  
-```test.csv```  
-```train.csv```  
+```models.py```  
+```evaluate.py```  
+```MLP_train.ipynb```  
+```CNN_train.ipynb```  
+```best_model.pt```
+```intern_homework_train_dataset.csv```
+```intern_homework_public_test_dataset.csv``` 
+```intern_homework_private_test_dataset.csv``` 
+```intern_homework_example_result.csv``` 
 After downloading the files above, put them in the same folder.
+Or you can just download the whole folder in the repositories. 
 
 ## Training Code
-You can modify the parameters and produced ```best_model.csv``` by running ```109550159_Final_train.py```  
-![image](https://github.com/Benson5376/Machine-Learning-Final-Project/blob/main/iamge01.png)  
+There are two files of training code: ```MLP_train.ipynb``` and ```CNN_train.ipynb```.
+They are used to train by MLP and CNN respectively.
+You can adjust the hyperparameters to train and store the model.
 
-## Download the pre-trained model
-Without running the training code, you can also download the pretrained model in the link below and put it in the smae folder as other files.  
-Model link: https://drive.google.com/file/d/1ED7niJo8w2uVn-X9mkt8n_q09oskU0o8/view  
-  
-## Inference
-After producing the model by training code or downloading the model by the model link provided above, you can run ```109550159_Final_inference.py```
-The program will produce ```submission.csv```, which is the final submission.
+## Pre-trained Model
+In ```evaluate.py```, you can produce the prediction through the pre-trained model ```best_model.pt``` or you can also train your  
+own model and replace it.
+
